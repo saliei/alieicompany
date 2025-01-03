@@ -35,6 +35,7 @@ env:
   NODE_VERSION: "23.5.0"
   TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ vars.TINA_TOKEN }}
+  CNAME: www.alieicompany.co.uk
 
 jobs:
   # Build job
