@@ -1,3 +1,4 @@
 # Aliei Company LTD.
 
-This is the website for the [alieicompany.co.uk](https://alieicompany.co.uk).
+This is the website for [alieicompany.co.uk](https://alieicompany.co.uk), 
+and [alieicompany.com](https://alieicompany.com).
