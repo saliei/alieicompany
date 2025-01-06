@@ -31,9 +31,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "IBM Plex Sans:wght@100;400",
+      "primary": "Cardo:wght@400",
       "primary_type": "sans-serif",
-      "secondary": "Barlow Condensed:wght@200;400",
+      "secondary": "Cairo:wght@300;500",
       "secondary_type": "sans-serif"
     },
     "font_size": {
