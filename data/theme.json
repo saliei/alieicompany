@@ -6,7 +6,9 @@
         "body": "#fff",
         "border": "#eaeaea",
         "theme_light": "#f6f6f6",
-        "theme_dark": ""
+        "theme_dark": "",
+        "comment": "the yellow color: #E5B94E",
+        "comment": "the accent color: #0066CC"
       },
       "text_color": {
         "default": "#444444",
@@ -31,9 +33,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Cardo:wght@400",
+      "primary": "Inter:wght@100;900",
       "primary_type": "sans-serif",
-      "secondary": "Cairo:wght@300;500",
+      "secondary": "Poppins:wght@400",
       "secondary_type": "sans-serif"
     },
     "font_size": {
