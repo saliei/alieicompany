@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Sanchez:ital@0;1&family=Slabo+27px&family=Space+Grotesk:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo:ital,wght@0,100..900;1,100..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lekton:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+IS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik+Mono+One&family=Sanchez:ital@0;1&family=Share+Tech+Mono&family=Slabo+27px&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*
+All the Fonts above:
+font-family: "Titillium Web", serif;
+  font-family: "PT Sans", serif;
+  font-family: "Open Sans", serif;
+  font-family: "Slabo 27px", serif;
+  font-family: "Sanchez", serif;
+  font-family: "IBM Plex Mono", serif;
+  font-family: "Playwrite IS", serif;
+  font-family: "Abel", serif;
+  font-family: "Inter", serif;
+  font-family: "Rubik Mono One", serif;
+  font-family: "Poppins", serif;
+  font-family: "Space Grotesk", serif;
+  font-family: "Archivo", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair", serif;
+  font-family: "Cardo", serif;
+  font-family: "Roboto Flex", serif;
+  font-family: "Share Tech Mono", serif;
+  font-family: "Smooch Sans", serif;
+  font-family: "Space Mono", serif;
+  font-family: "PT Mono", serif;
+  font-family: "Lekton", serif;
+*/
 
 .header {
   backdrop-filter: blur(20px) invert(0%);
@@ -6,14 +32,27 @@
 }
 
 .navbar {
-  // font-family: "Abel";
+  // font-family: "Abel"; // maybe the one
   // font-family: "Poppins";
   // font-family: "Space Grotesk";
   // font-family: "Archivo";
-  font-family: "Inter";
+  // font-family: "Inter";
+  // font-family: "Rubik Mono One";
+  // font-family: "Playfair Display";
   // font-style: "Regular";
-  font-weight: 900 !important;
+	// font-family: "Roboto Flex";
+	font-family: "Share Tech Mono"; // The ONE!
+  // font-family: "Lekton", serif;
+  // font-family: "PT Mono", serif;
+  // font-family: "Space Mono", serif;
+  // font-family: "Smooch Sans", serif; // maybe
+  // font-family: "Roboto Flex", serif;
+  // font-family: "Cardo", serif;
+  // font-family: "Space Grotesk", serif;
+    // font-variant: uppercase;
+  // font-weight: 900 !important;
   // color: #000000;
+  font-size: 0.9em;
 }
 
 .landing-header {
@@ -31,14 +70,22 @@
 .landing-desc {
   // font-family: "Archivo";
   // font-family: "Lato";
-  font-family: "Inter";
+  // font-family: "Inter";
+  // font-family: "Cardo";
+  // font-family: "Playfair Display"; // this is the one!
+	font-family: "Roboto Flex";
 }
 
 
 footer {
-  font-family: "Abel";
-  font-weight: 400;
-  color: #121212;
+  // font-family: "Abel";
+  // font-style: bold;
+  font-family: "Share Tech Mono";
+  // font-family: "Roboto";
+  // font-family: "Smooch Sans", serif;
+  // letter-spacing: 1px;
+  // font-weight: 400;
+  // color: #121212;
 }
 
 .content :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
@@ -47,4 +94,19 @@ footer {
 
 .content:is(.dark *) :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   color: #fafafa;
+}
+
+
+.text-sharetech {
+  font-family: "Share Tech Mono", serif;
+  // font-family: "Abel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.smooch-sans-id {
+  font-family: "Smooch Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
