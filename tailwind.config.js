@@ -45,6 +45,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        brandYellow: "#f5b922",
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
         dark: theme.colors.default.text_color.dark,
