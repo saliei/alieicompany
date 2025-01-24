@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo:ital,wght@0,100..900;1,100..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lekton:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+IS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik+Mono+One&family=Sanchez:ital@0;1&family=Share+Tech+Mono&family=Slabo+27px&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /*
-All the Fonts above:
+All the Fonts above: wired.com fonts is nice!!! also ++**VIN MONO PRO**++ seems to be a good one!!!
 font-family: "Titillium Web", serif;
   font-family: "PT Sans", serif;
   font-family: "Open Sans", serif;
@@ -26,6 +26,13 @@ font-family: "Titillium Web", serif;
   font-family: "Lekton", serif;
 */
 
+@font-face {
+  font-family: "VinMono";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/VinMonoPro-Light.ttf");
+}
+
 .header {
   backdrop-filter: blur(20px) invert(0%);
   --tw-bg-opacity: 0.7;
@@ -41,7 +48,9 @@ font-family: "Titillium Web", serif;
   // font-family: "Playfair Display";
   // font-style: "Regular";
 	// font-family: "Roboto Flex";
-	font-family: "Share Tech Mono"; // The ONE!
+	// font-family: "Share Tech Mono"; // The ONE!
+    // font-family: "VinMono";
+    // text-transform: capitalize;
   // font-family: "Lekton", serif;
   // font-family: "PT Mono", serif;
   // font-family: "Space Mono", serif;
@@ -52,7 +61,15 @@ font-family: "Titillium Web", serif;
     // font-variant: uppercase;
   // font-weight: 900 !important;
   // color: #000000;
-  font-size: 0.9em;
+  font-size: 0.7em;
+}
+
+.button {
+  // font-family: "Smooch Sans";
+  // font-family: "VinMono";
+  // font-family: "Space Grotesk", serif;
+  // font-family: "Lekton", serif;
+  // font-weight: 900;
 }
 
 .landing-header {
@@ -80,7 +97,7 @@ font-family: "Titillium Web", serif;
 footer {
   // font-family: "Abel";
   // font-style: bold;
-  font-family: "Share Tech Mono";
+  // font-family: "Share Tech Mono";
   // font-family: "Roboto";
   // font-family: "Smooch Sans", serif;
   // letter-spacing: 1px;
