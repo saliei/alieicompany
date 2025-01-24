@@ -1,5 +1,5 @@
 baseURL = "https://alieicompany.co.uk"
-title = "Aliei Company LTD"
+title = "Aliei Company"
 theme = "hugoplate"
 timeZone = "Europe/London"
 summaryLength = 10
